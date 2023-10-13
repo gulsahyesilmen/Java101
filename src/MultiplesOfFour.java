@@ -12,7 +12,7 @@ public class MultiplesOfFour {
             do{
                 System.out.print("Bir sayı giriniz : ");
                 n = inp.nextInt();
-                   if(n%4 == 0){
+                   if(n%4==0 || n%2==0){
                       total += n;
                    }
             }while(n%2==0);
