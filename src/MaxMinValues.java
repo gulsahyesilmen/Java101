@@ -8,10 +8,13 @@ public class MaxMinValues {
         System.out.print("Kaç tane sayı gireceksiniz : ");
         n = inp.nextInt();
 
-        max = n;
-        min = n;
+        System.out.print( "1. sayıyı giriniz :");
+        num = inp.nextInt();
 
-        for(int i=1; i<=n; i++){
+        max = num;
+        min = num;
+
+        for(int i=2; i<=n; i++){
             System.out.print(i+ ". sayıyı giriniz :");
             num = inp.nextInt();
 
